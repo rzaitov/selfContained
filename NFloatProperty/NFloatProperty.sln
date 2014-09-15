@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NFloatProperty", "NFloatProperty\NFloatProperty.csproj", "{C9B7EAE0-9463-4AAC-99B4-026C116F6019}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9B7EAE0-9463-4AAC-99B4-026C116F6019}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{C9B7EAE0-9463-4AAC-99B4-026C116F6019}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{C9B7EAE0-9463-4AAC-99B4-026C116F6019}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{C9B7EAE0-9463-4AAC-99B4-026C116F6019}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{C9B7EAE0-9463-4AAC-99B4-026C116F6019}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{C9B7EAE0-9463-4AAC-99B4-026C116F6019}.Debug|iPhone.Build.0 = Debug|iPhone
+		{C9B7EAE0-9463-4AAC-99B4-026C116F6019}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{C9B7EAE0-9463-4AAC-99B4-026C116F6019}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{C9B7EAE0-9463-4AAC-99B4-026C116F6019}.Release|iPhone.ActiveCfg = Release|iPhone
+		{C9B7EAE0-9463-4AAC-99B4-026C116F6019}.Release|iPhone.Build.0 = Release|iPhone
+		{C9B7EAE0-9463-4AAC-99B4-026C116F6019}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{C9B7EAE0-9463-4AAC-99B4-026C116F6019}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = NFloatProperty\NFloatProperty.csproj
+	EndGlobalSection
+EndGlobal
