@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HuggingPriority", "HuggingPriority\HuggingPriority.csproj", "{7920B00F-BA7F-4CC5-B64C-0817824AABFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7920B00F-BA7F-4CC5-B64C-0817824AABFF}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{7920B00F-BA7F-4CC5-B64C-0817824AABFF}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{7920B00F-BA7F-4CC5-B64C-0817824AABFF}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{7920B00F-BA7F-4CC5-B64C-0817824AABFF}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{7920B00F-BA7F-4CC5-B64C-0817824AABFF}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{7920B00F-BA7F-4CC5-B64C-0817824AABFF}.Debug|iPhone.Build.0 = Debug|iPhone
+		{7920B00F-BA7F-4CC5-B64C-0817824AABFF}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{7920B00F-BA7F-4CC5-B64C-0817824AABFF}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{7920B00F-BA7F-4CC5-B64C-0817824AABFF}.Release|iPhone.ActiveCfg = Release|iPhone
+		{7920B00F-BA7F-4CC5-B64C-0817824AABFF}.Release|iPhone.Build.0 = Release|iPhone
+		{7920B00F-BA7F-4CC5-B64C-0817824AABFF}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{7920B00F-BA7F-4CC5-B64C-0817824AABFF}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = HuggingPriority\HuggingPriority.csproj
+	EndGlobalSection
+EndGlobal
