@@ -76,6 +76,9 @@
                             <constraint id="21" firstItem="kh9-bI-dsS" firstAttribute="bottom" secondItem="5" secondAttribute="bottom" constant="38"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="MyCoolContainer" destination="5" id="name-outlet-5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
