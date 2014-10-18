@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TableViewController", "TableViewController\TableViewController.csproj", "{E06A2C93-2540-4344-8DF6-8FD16E9E75F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E06A2C93-2540-4344-8DF6-8FD16E9E75F9}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{E06A2C93-2540-4344-8DF6-8FD16E9E75F9}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{E06A2C93-2540-4344-8DF6-8FD16E9E75F9}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{E06A2C93-2540-4344-8DF6-8FD16E9E75F9}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{E06A2C93-2540-4344-8DF6-8FD16E9E75F9}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{E06A2C93-2540-4344-8DF6-8FD16E9E75F9}.Debug|iPhone.Build.0 = Debug|iPhone
+		{E06A2C93-2540-4344-8DF6-8FD16E9E75F9}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{E06A2C93-2540-4344-8DF6-8FD16E9E75F9}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{E06A2C93-2540-4344-8DF6-8FD16E9E75F9}.Release|iPhone.ActiveCfg = Release|iPhone
+		{E06A2C93-2540-4344-8DF6-8FD16E9E75F9}.Release|iPhone.Build.0 = Release|iPhone
+		{E06A2C93-2540-4344-8DF6-8FD16E9E75F9}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{E06A2C93-2540-4344-8DF6-8FD16E9E75F9}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = TableViewController\TableViewController.csproj
+	EndGlobalSection
+EndGlobal
