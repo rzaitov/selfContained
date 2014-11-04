@@ -24,9 +24,9 @@ namespace MarshalStructToPtr
 
 			public float RightChannelVolume;
 
-			public IntPtr AudioUnit;
+//			public IntPtr AudioUnit;
 
-			public IntPtr Self;
+//			public IntPtr Self;
 		}
 
 		static bool UserInterfaceIdiomIsPhone {
@@ -62,7 +62,6 @@ namespace MarshalStructToPtr
 
 			int size = Marshal.SizeOf (typeof(AVAudioTapProcessorContext));
 			IntPtr handle = Marshal.AllocHGlobal (size);
-			context.Self = handle;
 			Marshal.StructureToPtr<AVAudioTapProcessorContext> (context, handle, false);
 
 			
