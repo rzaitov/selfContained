@@ -18,11 +18,11 @@ namespace MarshalStructToPtr
 
 			public double SampleRate;
 
-			public double SampleCount;
-
-			public float LeftChannelVolume;
-
-			public float RightChannelVolume;
+//			public double SampleCount;
+//
+//			public float LeftChannelVolume;
+//
+//			public float RightChannelVolume;
 
 //			public IntPtr AudioUnit;
 
@@ -35,6 +35,7 @@ namespace MarshalStructToPtr
 
 		public MarshalStructToPtrViewController (IntPtr handle) : base (handle)
 		{
+			Console.WriteLine (Marshal.SizeOf (typeof(AVAudioTapProcessorContext)));
 		}
 
 		public override void DidReceiveMemoryWarning ()
@@ -51,14 +52,7 @@ namespace MarshalStructToPtr
 		{
 			base.ViewDidLoad ();
 
-			AVAudioTapProcessorContext context = new AVAudioTapProcessorContext {
-				SupportedTapProcessingFormat = false,
-				IsNonInterleaved = false,
-				SampleRate = double.NaN,
-				SampleCount = 0,
-				LeftChannelVolume = 0,
-				RightChannelVolume = 0
-			};
+			AVAudioTapProcessorContext context = new AVAudioTapProcessorContext ();
 
 			int size = Marshal.SizeOf (typeof(AVAudioTapProcessorContext));
 			IntPtr handle = Marshal.AllocHGlobal (size);
