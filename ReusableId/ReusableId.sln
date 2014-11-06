@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReusableId", "ReusableId\ReusableId.csproj", "{DA2BF88F-45AE-4547-ADF8-AB143DC3F8AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA2BF88F-45AE-4547-ADF8-AB143DC3F8AD}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{DA2BF88F-45AE-4547-ADF8-AB143DC3F8AD}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{DA2BF88F-45AE-4547-ADF8-AB143DC3F8AD}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{DA2BF88F-45AE-4547-ADF8-AB143DC3F8AD}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{DA2BF88F-45AE-4547-ADF8-AB143DC3F8AD}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{DA2BF88F-45AE-4547-ADF8-AB143DC3F8AD}.Debug|iPhone.Build.0 = Debug|iPhone
+		{DA2BF88F-45AE-4547-ADF8-AB143DC3F8AD}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{DA2BF88F-45AE-4547-ADF8-AB143DC3F8AD}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{DA2BF88F-45AE-4547-ADF8-AB143DC3F8AD}.Release|iPhone.ActiveCfg = Release|iPhone
+		{DA2BF88F-45AE-4547-ADF8-AB143DC3F8AD}.Release|iPhone.Build.0 = Release|iPhone
+		{DA2BF88F-45AE-4547-ADF8-AB143DC3F8AD}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{DA2BF88F-45AE-4547-ADF8-AB143DC3F8AD}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = ReusableId\ReusableId.csproj
+	EndGlobalSection
+EndGlobal
