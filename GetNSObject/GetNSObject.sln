@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetNSObject", "GetNSObject\GetNSObject.csproj", "{EDFE8994-0C2D-4889-A2DF-ACD4FEE84413}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDFE8994-0C2D-4889-A2DF-ACD4FEE84413}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{EDFE8994-0C2D-4889-A2DF-ACD4FEE84413}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{EDFE8994-0C2D-4889-A2DF-ACD4FEE84413}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{EDFE8994-0C2D-4889-A2DF-ACD4FEE84413}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{EDFE8994-0C2D-4889-A2DF-ACD4FEE84413}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{EDFE8994-0C2D-4889-A2DF-ACD4FEE84413}.Debug|iPhone.Build.0 = Debug|iPhone
+		{EDFE8994-0C2D-4889-A2DF-ACD4FEE84413}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{EDFE8994-0C2D-4889-A2DF-ACD4FEE84413}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{EDFE8994-0C2D-4889-A2DF-ACD4FEE84413}.Release|iPhone.ActiveCfg = Release|iPhone
+		{EDFE8994-0C2D-4889-A2DF-ACD4FEE84413}.Release|iPhone.Build.0 = Release|iPhone
+		{EDFE8994-0C2D-4889-A2DF-ACD4FEE84413}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{EDFE8994-0C2D-4889-A2DF-ACD4FEE84413}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = GetNSObject\GetNSObject.csproj
+	EndGlobalSection
+EndGlobal
