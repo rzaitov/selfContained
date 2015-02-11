@@ -7,7 +7,7 @@
 	<key>CFBundleDisplayName</key>
 	<string>WatchKitApp</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.your-company.example.watchextension.watchapp</string>
+	<string>com.your-company.example.watchapp</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
