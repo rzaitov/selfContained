@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoolApp", "CoolApp\CoolApp.csproj", "{FD0AABC3-C41B-42BD-B6A6-DF34680B9368}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamComponentStore", "..\XamComponentStore\XamComponentStore.csproj", "{0517E6A0-57F6-4213-8CFE-21616C8AE7C2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamComponentStore", "XamComponentStore\XamComponentStore.csproj", "{0517E6A0-57F6-4213-8CFE-21616C8AE7C2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,19 +17,13 @@ Global
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{0517E6A0-57F6-4213-8CFE-21616C8AE7C2}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
-		{0517E6A0-57F6-4213-8CFE-21616C8AE7C2}.Ad-Hoc|iPhone.Build.0 = Release|Any CPU
 		{0517E6A0-57F6-4213-8CFE-21616C8AE7C2}.AppStore|iPhone.ActiveCfg = AppStore|Any CPU
-		{0517E6A0-57F6-4213-8CFE-21616C8AE7C2}.AppStore|iPhone.Build.0 = AppStore|Any CPU
 		{0517E6A0-57F6-4213-8CFE-21616C8AE7C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0517E6A0-57F6-4213-8CFE-21616C8AE7C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0517E6A0-57F6-4213-8CFE-21616C8AE7C2}.Debug|iPhone.ActiveCfg = Debug|Any CPU
-		{0517E6A0-57F6-4213-8CFE-21616C8AE7C2}.Debug|iPhone.Build.0 = Debug|Any CPU
 		{0517E6A0-57F6-4213-8CFE-21616C8AE7C2}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
-		{0517E6A0-57F6-4213-8CFE-21616C8AE7C2}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
 		{0517E6A0-57F6-4213-8CFE-21616C8AE7C2}.Release|iPhone.ActiveCfg = Release|Any CPU
-		{0517E6A0-57F6-4213-8CFE-21616C8AE7C2}.Release|iPhone.Build.0 = Release|Any CPU
 		{0517E6A0-57F6-4213-8CFE-21616C8AE7C2}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
-		{0517E6A0-57F6-4213-8CFE-21616C8AE7C2}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 		{FD0AABC3-C41B-42BD-B6A6-DF34680B9368}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
 		{FD0AABC3-C41B-42BD-B6A6-DF34680B9368}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
 		{FD0AABC3-C41B-42BD-B6A6-DF34680B9368}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
