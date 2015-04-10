@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoolApp", "CoolApp\CoolApp.csproj", "{FD0AABC3-C41B-42BD-B6A6-DF34680B9368}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD0AABC3-C41B-42BD-B6A6-DF34680B9368}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{FD0AABC3-C41B-42BD-B6A6-DF34680B9368}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{FD0AABC3-C41B-42BD-B6A6-DF34680B9368}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{FD0AABC3-C41B-42BD-B6A6-DF34680B9368}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{FD0AABC3-C41B-42BD-B6A6-DF34680B9368}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{FD0AABC3-C41B-42BD-B6A6-DF34680B9368}.Debug|iPhone.Build.0 = Debug|iPhone
+		{FD0AABC3-C41B-42BD-B6A6-DF34680B9368}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{FD0AABC3-C41B-42BD-B6A6-DF34680B9368}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{FD0AABC3-C41B-42BD-B6A6-DF34680B9368}.Release|iPhone.ActiveCfg = Release|iPhone
+		{FD0AABC3-C41B-42BD-B6A6-DF34680B9368}.Release|iPhone.Build.0 = Release|iPhone
+		{FD0AABC3-C41B-42BD-B6A6-DF34680B9368}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{FD0AABC3-C41B-42BD-B6A6-DF34680B9368}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+EndGlobal
