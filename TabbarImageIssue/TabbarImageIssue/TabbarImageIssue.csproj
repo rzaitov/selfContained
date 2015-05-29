@@ -74,16 +74,9 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Xamarin.iOS" />
-    <Reference Include="Calabash">
-      <HintPath>..\packages\Xamarin.TestCloud.Agent.0.13.0\lib\Xamarin.iOS10\Calabash.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Contents.json" />
-    <ImageAsset Include="Resources\Images.xcassets\First.imageset\Contents.json" />
-    <ImageAsset Include="Resources\Images.xcassets\First.imageset\First.pdf" />
-    <ImageAsset Include="Resources\Images.xcassets\Second.imageset\Contents.json" />
-    <ImageAsset Include="Resources\Images.xcassets\Second.imageset\Second.pdf" />
     <ImageAsset Include="Resources\Images.xcassets\tabIconMessages.imageset\Contents.json" />
     <ImageAsset Include="Resources\Images.xcassets\tabIconMessages.imageset\tabIconMessages.png" />
     <ImageAsset Include="Resources\Images.xcassets\tabIconMessages.imageset\tabIconMessages%402.png" />
@@ -100,7 +93,6 @@
   <ItemGroup>
     <None Include="Info.plist" />
     <None Include="Entitlements.plist" />
-    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Main.cs" />

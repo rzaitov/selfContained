@@ -8,8 +8,17 @@ namespace TabbarImageIssue
 	{
 		public SecondViewController (IntPtr handle) : base (handle)
 		{
-			TabBarItem.Title = "Second";
-			TabBarItem.Image = UIImage.FromBundle ("tabIconPoints");
+			// This doesn't work, but should work
+//			TabBarItem.Title = "Second";
+//			TabBarItem.Image = UIImage.FromBundle ("tabIconPoints");
+//			TabBarItem.SelectedImage = UIImage.FromBundle ("tabIconPoints");
+
+			// This doesn't work, but should work
+			TabBarItem = new UITabBarItem (
+				"Second",
+				UIImage.FromBundle ("tabIconPoints"),
+				UIImage.FromBundle ("tabIconPoints")
+			);
 		}
 	}
 }

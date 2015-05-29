@@ -8,20 +8,17 @@ namespace TabbarImageIssue
 	{
 		public FirstViewController (IntPtr handle) : base (handle)
 		{
+			// This doesn't work, but should work
 			TabBarItem.Title = "First";
 			TabBarItem.Image = UIImage.FromBundle ("tabIconMessages");
-		}
+			TabBarItem.SelectedImage = UIImage.FromBundle ("tabIconMessages");
 
-		public override void ViewDidLoad ()
-		{
-			base.ViewDidLoad ();
-			// Perform any additional setup after loading the view, typically from a nib.
-		}
-
-		public override void DidReceiveMemoryWarning ()
-		{
-			base.DidReceiveMemoryWarning ();
-			// Release any cached data, images, etc that aren't in use.
+			// This doesn't work, but should work
+//			TabBarItem = new UITabBarItem (
+//				"First",
+//				UIImage.FromBundle ("tabIconMessages"),
+//				UIImage.FromBundle ("tabIconMessages")
+//			);
 		}
 	}
 }
