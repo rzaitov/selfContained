@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XCodeSync", "XCodeSync\XCodeSync.csproj", "{3FC3CDA2-C34D-43F8-BD24-1010A215B1BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FC3CDA2-C34D-43F8-BD24-1010A215B1BB}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{3FC3CDA2-C34D-43F8-BD24-1010A215B1BB}.Debug|iPhone.Build.0 = Debug|iPhone
+		{3FC3CDA2-C34D-43F8-BD24-1010A215B1BB}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{3FC3CDA2-C34D-43F8-BD24-1010A215B1BB}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{3FC3CDA2-C34D-43F8-BD24-1010A215B1BB}.Release|iPhone.ActiveCfg = Release|iPhone
+		{3FC3CDA2-C34D-43F8-BD24-1010A215B1BB}.Release|iPhone.Build.0 = Release|iPhone
+		{3FC3CDA2-C34D-43F8-BD24-1010A215B1BB}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{3FC3CDA2-C34D-43F8-BD24-1010A215B1BB}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+EndGlobal
