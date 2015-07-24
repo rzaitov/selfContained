@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8164.2" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8135.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <viewController id="Xjo-2w-WNa">
+            <layoutGuides>
+                <viewControllerLayoutGuide type="top" id="oWE-YT-gDw"/>
+                <viewControllerLayoutGuide type="bottom" id="jpR-gL-U7P"/>
+            </layoutGuides>
+            <view key="view" contentMode="scaleToFill" id="vTW-qE-AAl">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            </view>
+            <point key="canvasLocation" x="268" y="415"/>
+        </viewController>
+        <view contentMode="scaleToFill" id="BBE-90-oeg">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <color key="backgroundColor" red="1" green="0.94313300404446598" blue="0.035862929052309256" alpha="1" colorSpace="calibratedRGB"/>
+            <point key="canvasLocation" x="810" y="415"/>
+        </view>
+        <viewController id="USu-mA-QaC">
+            <layoutGuides>
+                <viewControllerLayoutGuide type="top" id="iec-vn-W3j"/>
+                <viewControllerLayoutGuide type="bottom" id="g3F-6B-uJM"/>
+            </layoutGuides>
+            <view key="view" contentMode="scaleToFill" id="fyo-rJ-mkI">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            </view>
+            <point key="canvasLocation" x="223" y="415"/>
+        </viewController>
+    </objects>
+</document>
