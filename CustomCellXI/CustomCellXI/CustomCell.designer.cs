@@ -14,5 +14,8 @@ namespace CustomCellXI
 	[Register ("CustomCell")]
 	partial class CustomCell
 	{
+		void ReleaseDesignerOutlets ()
+		{
+		}
 	}
 }
