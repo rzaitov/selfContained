@@ -1,5 +1,5 @@
 ﻿using System;
-
+using CloudKit;
 using UIKit;
 
 namespace Issue40318
@@ -14,7 +14,8 @@ namespace Issue40318
 		public override void ViewDidLoad ()
 		{
 			base.ViewDidLoad ();
-			// Perform any additional setup after loading the view, typically from a nib.
+			var dc = CKContainer.DefaultContainer;
+			Console.WriteLine (dc);
 		}
 
 		public override void DidReceiveMemoryWarning ()
