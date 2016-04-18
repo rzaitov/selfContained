@@ -13,7 +13,6 @@
 		5EF954181CC526F80018C8F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EF954161CC526F80018C8F9 /* Main.storyboard */; };
 		5EF9541A1CC526F80018C8F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EF954191CC526F80018C8F9 /* Assets.xcassets */; };
 		5EF9541D1CC526F80018C8F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EF9541B1CC526F80018C8F9 /* LaunchScreen.storyboard */; };
-		5EF954261CC527820018C8F9 /* HomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EF954251CC527820018C8F9 /* HomeKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +25,6 @@
 		5EF9541C1CC526F80018C8F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5EF9541E1CC526F80018C8F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5EF954241CC527820018C8F9 /* issue40318.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = issue40318.entitlements; sourceTree = "<group>"; };
-		5EF954251CC527820018C8F9 /* HomeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HomeKit.framework; path = System/Library/Frameworks/HomeKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,7 +32,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EF954261CC527820018C8F9 /* HomeKit.framework in Frameworks */,
 				5E7D2CF41CC533DE00E4D078 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,7 +43,6 @@
 			isa = PBXGroup;
 			children = (
 				5E7D2CF31CC533DE00E4D078 /* CloudKit.framework */,
-				5EF954251CC527820018C8F9 /* HomeKit.framework */,
 				5EF954111CC526F80018C8F9 /* issue40318 */,
 				5EF954101CC526F80018C8F9 /* Products */,
 			);
@@ -109,7 +105,7 @@
 						DevelopmentTeam = 2TU993NY9J;
 						SystemCapabilities = {
 							com.apple.HomeKit = {
-								enabled = 1;
+								enabled = 0;
 							};
 							com.apple.iCloud = {
 								enabled = 1;
@@ -277,7 +273,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xamarin.issue40318;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "5465ffe5-5e99-46a4-be37-afb680cc318d";
+				PROVISIONING_PROFILE = "2b2c5901-de21-45c6-ac17-6448fec39a9c";
 			};
 			name = Debug;
 		};
@@ -292,7 +288,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xamarin.issue40318;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "5465ffe5-5e99-46a4-be37-afb680cc318d";
+				PROVISIONING_PROFILE = "2b2c5901-de21-45c6-ac17-6448fec39a9c";
 			};
 			name = Release;
 		};

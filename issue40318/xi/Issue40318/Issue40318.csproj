@@ -78,7 +78,7 @@
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
     <MtouchArch>ARMv7, ARM64</MtouchArch>
     <PlatformTarget>x86</PlatformTarget>
-    <CodesignProvision>f2376048-6279-4821-8016-85072e2d0347</CodesignProvision>
+    <CodesignProvision>2b2c5901-de21-45c6-ac17-6448fec39a9c</CodesignProvision>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
