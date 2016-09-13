@@ -52,5 +52,4 @@ namespace KvoResearch
 			return subject.AddObserver (selector, options, handler);
 		}
 	}
-
 }
