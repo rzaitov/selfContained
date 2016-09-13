@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
@@ -17,12 +18,17 @@ namespace KvoResearch
 		{
 			base.ViewDidLoad ();
 
-			bool useCuteOverload = true;
+			// The orthodox way to do KVO
+			// View.AddObserver ("frame", NSKeyValueObservingOptions.New, FrameChanged);
 
-			if(useCuteOverload)
-				View.AddObserver (v => v.Frame, NSKeyValueObservingOptions.New, FrameChanged);
-			else
-				View.AddObserver ("frame", NSKeyValueObservingOptions.New, FrameChanged);
+			// A proposed way to do KVO
+			// View.AddObserver (v => v.Frame, NSKeyValueObservingOptions.New, FrameChanged);
+
+			// This will build keyPath "view.frame" for you
+			this.AddObserver (vc => vc.View.Frame, NSKeyValueObservingOptions.New, FrameChanged);
+
+			// This will not work as expected
+			// View.AddObserver (v => v.Frame.Height, NSKeyValueObservingOptions.New, FrameChanged);
 		}
 
 		void FrameChanged (NSObservedChange change)
@@ -31,25 +37,42 @@ namespace KvoResearch
 		}
 	}
 
-	public static class SubscriberHelper
+	public static class NSObjectExtensions
 	{
-		public static IDisposable AddObserver<T, TProperty> (this T subject, Expression<Func<T, TProperty>> expr, NSKeyValueObservingOptions options, Action<NSObservedChange> handler) where T : NSObject
+		public static IDisposable AddObserver<T, TProperty> (this T subject, Expression<Func<T, TProperty>> lambdaExpression, NSKeyValueObservingOptions options, Action<NSObservedChange> handler) where T : NSObject
 		{
-			var member = expr.Body as MemberExpression;
-			if (member == null)
-				throw new InvalidOperationException ($"Expression {expr} doesn't refer to property");
+			Expression expression = lambdaExpression.Body;
+			MemberExpression memberExpression;
+			if(!TryCastMemberExpression (expression, out memberExpression))
+				throw new InvalidOperationException ($"Expression {expression} doesn't refer to property");
 
-			var propInfo = member.Member as PropertyInfo;
-			if (propInfo == null)
-				throw new InvalidOperationException ($"Expression {expr} doesn't refer to property");
+			var stack = new Stack<string> ();
+			do {
+				var propInfo = memberExpression.Member as PropertyInfo;
+				if (propInfo == null)
+					throw new InvalidOperationException ($"Expression {expression} doesn't refer to property");
 
-			var getter = propInfo.GetAccessors () [0];
-			var export = getter.CustomAttributes
-							   .First (a => a.AttributeType.Name == "ExportAttribute" && a.AttributeType.Namespace == "Foundation");
+				var getter = propInfo.GetAccessors () [0];
+				var export = getter.CustomAttributes
+								   .FirstOrDefault (a => a.AttributeType.Name == "ExportAttribute"
+													&& a.AttributeType.Namespace == "Foundation");
+				if (export == null)
+					throw new InvalidOperationException ($"Property {propInfo.Name} is not KVO compliant");
 
-			var selector = (string)export.ConstructorArguments [0].Value;
+				var selector = (string)export.ConstructorArguments [0].Value;
+				stack.Push (selector);
 
-			return subject.AddObserver (selector, options, handler);
+				expression = memberExpression.Expression;
+			} while (TryCastMemberExpression (expression, out memberExpression));
+
+			var keyPath = string.Join (".", stack);
+			return subject.AddObserver (keyPath, options, handler);
+		}
+
+		static bool TryCastMemberExpression (Expression expr, out MemberExpression memberExpression)
+		{
+			memberExpression = expr as MemberExpression;
+			return memberExpression != null;
 		}
 	}
 }
