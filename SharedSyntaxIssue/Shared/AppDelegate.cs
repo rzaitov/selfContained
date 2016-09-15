@@ -14,7 +14,7 @@ namespace Shared
 		{
 			#if __IOS__
 			Console.WriteLine ("this is iOS");
-			#elif __tvOS__
+			#elif __TVOS__
 			Console.WriteLine ("this is tvOS");
 			#endif
 			return true;
