@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MMAPTest", "MMAPTest\MMAPTest.csproj", "{DC220C6E-C17D-48CE-A5AA-895485AAB046}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC220C6E-C17D-48CE-A5AA-895485AAB046}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{DC220C6E-C17D-48CE-A5AA-895485AAB046}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{DC220C6E-C17D-48CE-A5AA-895485AAB046}.Release|iPhone.ActiveCfg = Release|iPhone
+		{DC220C6E-C17D-48CE-A5AA-895485AAB046}.Release|iPhone.Build.0 = Release|iPhone
+		{DC220C6E-C17D-48CE-A5AA-895485AAB046}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{DC220C6E-C17D-48CE-A5AA-895485AAB046}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{DC220C6E-C17D-48CE-A5AA-895485AAB046}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{DC220C6E-C17D-48CE-A5AA-895485AAB046}.Debug|iPhone.Build.0 = Debug|iPhone
+	EndGlobalSection
+EndGlobal
