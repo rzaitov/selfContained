@@ -1,0 +1,23 @@
+---
+uti: com.xamarin.workbook
+platform: MacNet45
+packages: []
+---
+
+Let’s do something bad.
+
+```csharp
+class Manager : Person {
+    public string Position { get; set; } 
+}
+```
+
+Ok, this is expected. Let’s continue normally.
+
+```csharp
+var hello = "Hello";
+var world = "World";
+$"{hello} {world}"
+```
+
+Where is my `Hello World` ? Where is an error that the previous error affects this code?
