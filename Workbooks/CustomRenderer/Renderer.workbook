@@ -4,3 +4,11 @@ platform: MacNet45
 packages: []
 ---
 
+```csharp
+#load "Image.csx"
+```
+
+```csharp
+new Image (100, 100)
+```
+
