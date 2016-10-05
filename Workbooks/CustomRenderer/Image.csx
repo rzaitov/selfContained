@@ -20,6 +20,6 @@ RegisterResultHandler<Image> (img => {
         }
     }
     var provider = new CGDataProvider (data);
-    var img = new CGImage (w, h, bitsPerComponent, bitsPerComponent * componentNum, bytesPerRow, CGColorSpace.CreateDeviceRGB (), CGBitmapFlags.Last, provider, null, false, CGColorRenderingIntent.Default);
-    return new NSImage (img, new CGSize (w, h));
+    var cgimg = new CGImage (w, h, bitsPerComponent, bitsPerComponent * componentNum, bytesPerRow, CGColorSpace.CreateDeviceRGB (), CGBitmapFlags.Last, provider, null, false, CGColorRenderingIntent.Default);
+    return new NSImage (cgimg, new CGSize (w, h));
 });
