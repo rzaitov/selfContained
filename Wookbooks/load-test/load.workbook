@@ -1,0 +1,14 @@
+---
+uti: com.xamarin.workbook
+platform: MacNet45
+packages: []
+---
+
+```csharp
+#load "./person.csx"
+```
+
+```csharp
+#load "/Users/rzaitov/Documents/Apps/Xamarin/selfContained/Wookbooks/load-test/person.csx"
+```
+
