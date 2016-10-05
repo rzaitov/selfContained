@@ -1,0 +1,15 @@
+---
+uti: com.xamarin.workbook
+platform: MacNet45
+packages: []
+---
+
+
+
+
+
+
+
+![insert](https://avatars0.githubusercontent.com/u/790012?v=3&s=200 "logo") 
+
+what about image from locale file?
