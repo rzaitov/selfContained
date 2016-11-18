@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{5DD5E4FA-CB73-4610-85AB-557B54E96AA9}") = "SelfContained.NugetPackage", "SelfContained.NugetPackage.nuproj", "{87A13684-9351-4113-8618-F5A98AEFA71D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtilsLibrary", "UtilsLibrary\UtilsLibrary.csproj", "{4E06BBD6-84CD-42C1-9A34-CE15754068F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87A13684-9351-4113-8618-F5A98AEFA71D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87A13684-9351-4113-8618-F5A98AEFA71D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87A13684-9351-4113-8618-F5A98AEFA71D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87A13684-9351-4113-8618-F5A98AEFA71D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E06BBD6-84CD-42C1-9A34-CE15754068F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E06BBD6-84CD-42C1-9A34-CE15754068F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E06BBD6-84CD-42C1-9A34-CE15754068F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E06BBD6-84CD-42C1-9A34-CE15754068F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
