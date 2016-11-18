@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library", "Library.csproj", "{55E3ADE9-315A-48A0-9C83-41512390A707}"
 EndProject
+Project("{5DD5E4FA-CB73-4610-85AB-557B54E96AA9}") = "SelfContained.NugetPackageTemplate", "SelfContained.NugetPackageTemplate\SelfContained.NugetPackageTemplate.nuproj", "{5AEBFE68-2E8D-41F2-99CD-E48FFC4307F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,5 +15,9 @@ Global
 		{55E3ADE9-315A-48A0-9C83-41512390A707}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55E3ADE9-315A-48A0-9C83-41512390A707}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55E3ADE9-315A-48A0-9C83-41512390A707}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AEBFE68-2E8D-41F2-99CD-E48FFC4307F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AEBFE68-2E8D-41F2-99CD-E48FFC4307F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AEBFE68-2E8D-41F2-99CD-E48FFC4307F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AEBFE68-2E8D-41F2-99CD-E48FFC4307F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
