@@ -1,4 +1,5 @@
 ﻿using System;
+using JustSingleLibrary;
 
 namespace Client
 {
@@ -6,7 +7,8 @@ namespace Client
 	{
 		public static void Main (string [] args)
 		{
-			Console.WriteLine ("Hello World!");
+			var mc = new MyClass ();
+			Console.WriteLine (mc.GetString());
 		}
 	}
 }
