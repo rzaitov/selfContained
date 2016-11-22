@@ -2,9 +2,9 @@
 
 namespace JustSingleLibrary
 {
-	public class MyClass
+	public class Important
 	{
-		public MyClass ()
+		public Important ()
 		{
 		}
 	}
