@@ -11,7 +11,7 @@
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <PackOnBuild>true</PackOnBuild>
     <PackageId>SelfContained.SingleLibrary</PackageId>
-    <PackageVersion>1.0.14</PackageVersion>
+    <PackageVersion>1.0.18</PackageVersion>
     <Authors>Rustam Zaitov</Authors>
     <Description>test for single library template</Description>
   </PropertyGroup>
@@ -47,12 +47,19 @@
       <IncludeInPackage>true</IncludeInPackage>
     </None>
     <None Include="packages.config" />
+    <None Include="build\SelfContained.SingleLibrary.targets">
+      <IncludeInPackage>true</IncludeInPackage>
+    </None>
+    <None Include="build\importantSettings.txt">
+      <IncludeInPackage>true</IncludeInPackage>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="contentFiles\" />
     <Folder Include="contentFiles\cs\" />
     <Folder Include="contentFiles\cs\any\" />
     <Folder Include="contentFiles\cs\any\TopFolder\" />
+    <Folder Include="build\" />
   </ItemGroup>
   <ItemGroup>
     <PackageFile Include="contentFiles\cs\any\TopFolder\NestedFolder\mySettings.txt">

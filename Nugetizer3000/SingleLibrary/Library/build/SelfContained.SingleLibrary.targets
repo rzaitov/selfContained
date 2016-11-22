@@ -1,0 +1,8 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ContentToCopy Include="$(MSBuildThisFileDirectory)**\*.*" />
+    <None Include="@(ContentToCopy)">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>
