@@ -1,7 +1,8 @@
 ﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ContentToCopy Include="$(MSBuildThisFileDirectory)**\*.*" />
-    <None Include="@(ContentToCopy)">
+      <None Include="@(ContentToCopy)">
+      <Link>%(RecursiveDir)%(FileName)%(Extension)</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>

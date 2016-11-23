@@ -11,7 +11,7 @@
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <PackOnBuild>true</PackOnBuild>
     <PackageId>SelfContained.SingleLibrary</PackageId>
-    <PackageVersion>1.0.18</PackageVersion>
+    <PackageVersion>1.0.26</PackageVersion>
     <Authors>Rustam Zaitov</Authors>
     <Description>test for single library template</Description>
   </PropertyGroup>
@@ -40,33 +40,20 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="contentFiles\cs\any\TopFolder\NestedFolder\mySettings.txt">
-      <IncludeInPackage>true</IncludeInPackage>
-    </None>
-    <None Include="contentFiles\cs\any\TopFolder\NestedFolder\Important.cs">
-      <IncludeInPackage>true</IncludeInPackage>
-    </None>
     <None Include="packages.config" />
     <None Include="build\SelfContained.SingleLibrary.targets">
       <IncludeInPackage>true</IncludeInPackage>
     </None>
-    <None Include="build\importantSettings.txt">
+    <None Include="build\TopFolder\NestedFolder\otherFile.txt">
+      <IncludeInPackage>true</IncludeInPackage>
+    </None>
+    <None Include="build\TopFolder\NestedFolder\importantSettings.txt">
       <IncludeInPackage>true</IncludeInPackage>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="contentFiles\" />
-    <Folder Include="contentFiles\cs\" />
-    <Folder Include="contentFiles\cs\any\" />
-    <Folder Include="contentFiles\cs\any\TopFolder\" />
     <Folder Include="build\" />
-  </ItemGroup>
-  <ItemGroup>
-    <PackageFile Include="contentFiles\cs\any\TopFolder\NestedFolder\mySettings.txt">
-      <Kind>Content</Kind>
-      <BuildAction>None</BuildAction>
-      <CopyToOutput>true</CopyToOutput>
-    </PackageFile>
+    <Folder Include="build\TopFolder\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\NuGet.Build.Packaging.0.1.163-pr61\build\NuGet.Build.Packaging.targets" Condition="Exists('..\packages\NuGet.Build.Packaging.0.1.163-pr61\build\NuGet.Build.Packaging.targets')" />
