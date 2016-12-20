@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoolLib", "CoolLib\CoolLib.csproj", "{4070BAB5-4FB3-465F-8419-46D3479AB327}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibTests", "LibTests\LibTests.csproj", "{0CAA29A2-9138-41AD-B4D0-F61C276F34F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4070BAB5-4FB3-465F-8419-46D3479AB327}.Debug|x86.ActiveCfg = Debug|x86
+		{4070BAB5-4FB3-465F-8419-46D3479AB327}.Debug|x86.Build.0 = Debug|x86
+		{4070BAB5-4FB3-465F-8419-46D3479AB327}.Release|x86.ActiveCfg = Release|x86
+		{4070BAB5-4FB3-465F-8419-46D3479AB327}.Release|x86.Build.0 = Release|x86
+		{0CAA29A2-9138-41AD-B4D0-F61C276F34F9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0CAA29A2-9138-41AD-B4D0-F61C276F34F9}.Debug|x86.Build.0 = Debug|Any CPU
+		{0CAA29A2-9138-41AD-B4D0-F61C276F34F9}.Release|x86.ActiveCfg = Release|Any CPU
+		{0CAA29A2-9138-41AD-B4D0-F61C276F34F9}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
